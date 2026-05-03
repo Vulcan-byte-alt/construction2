@@ -1,6 +1,12 @@
-roca-group-theme.zip
-*.zip
+# Exclude everything in roca-group except assets
+roca-group/*
+!roca-group/assets/
+
+# Exclude non-web assets
 compress_to_avif.py
+*.zip
 node_modules/
 .DS_Store
 Thumbs.db
+.venv/
+assets/
