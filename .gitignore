@@ -1,0 +1,6 @@
+roca-group-theme.zip
+*.zip
+compress_to_avif.py
+node_modules/
+.DS_Store
+Thumbs.db
