@@ -1,8 +1,10 @@
-# Exclude everything in roca-group except assets
-roca-group/*
-!roca-group/assets/
+# WordPress theme files - local only, not needed for static site
+roca-group/*.php
+roca-group/style.css
+roca-group/CLAUDE.md
+roca-group/template-parts/
 
-# Exclude non-web assets
+# Other local-only stuff
 compress_to_avif.py
 *.zip
 node_modules/
